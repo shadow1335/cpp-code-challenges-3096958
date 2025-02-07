@@ -15,6 +15,9 @@
 bool is_palindrome(std::string str){
 
     // Write your code here
+    std::string str2(str.begin(), str.end());
+
+    return str == str2;
 
     return false;
 }
